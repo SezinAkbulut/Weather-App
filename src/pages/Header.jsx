@@ -6,18 +6,18 @@ import "./style/header.css";
 
 function Header() {
   return (
-    <div className="App">
+    <div className="Header">
       <nav>
         <ul className="nav-container">
           <a href="/">
-            <li className="left-item">WEATHER APP</li>
+            <li className="left-item nav-item">WEATHER APP</li>
           </a>
           <div className="right-items">
-            <li>Home</li>
-            <li>Info</li>
-            <li>Shop</li>
-            <li>TOS</li>
-            <li>
+            <li className="nav-item">Home</li>
+            <li className="nav-item">Info</li>
+            <li className="nav-item">Shop</li>
+            <li className="nav-item">TOS</li>
+            <li className="nav-item search">
               <a href="#">
                 <FontAwesomeIcon icon={faSearch} />
               </a>
